@@ -1,6 +1,5 @@
 'use strict';
 
-//const sql = require('mssql');
 const path = require('path');
 const bodyParser = require('body-parser');
 
