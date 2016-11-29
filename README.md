@@ -9,7 +9,9 @@ $-> npm install
 Next, add your database credentials to knexfile.js
 
 $-> npm install -g knex
+
 $-> knex migrate:latest
+
 $-> npm start
 
 Finally, navigate your browswer to http://localhost:5000
