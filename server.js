@@ -24,6 +24,8 @@ app.get('/chat', (req, res) => {
 });
 
 /********************** CRUD MESSAGES ***********************/
+
+// CREATE
 app.post('/messages', (req, res) => {
     req.body.created_at = new Date();
     req.body.updated_at = new Date();
@@ -38,6 +40,7 @@ app.post('/messages', (req, res) => {
     });
 });
 
+// READ
 app.get('/messages', (req, res) => {
     db('messages').select()
     .then(function(resp) {
@@ -49,6 +52,7 @@ app.get('/messages', (req, res) => {
     });
 });
 
+// EDIT
 app.put('/messages', (req, res) => {
     const mid = req.body.mid;
     const message = req.body.message;
@@ -64,6 +68,7 @@ app.put('/messages', (req, res) => {
     });
 });
 
+// DELETE
 app.delete('/messages', (req, res) => {
     const mid = req.body.mid;
     console.log('message deleted', mid);
