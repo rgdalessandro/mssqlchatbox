@@ -6,8 +6,8 @@ module.exports = {
         client: 'mssql',
         connection: {
             host: '192.168.7.57',
-            user: 'Windhaven',
-            password: 'clutch7&',
+            user: '',
+            password: '',
             database: 'chat'
         }
     }
