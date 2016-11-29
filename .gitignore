@@ -46,7 +46,6 @@ logs
 
 # Deps
 node_modules
-migrations
 
 ### IntelliJ & PhPStorm
 *.iml
