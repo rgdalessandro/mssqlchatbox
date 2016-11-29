@@ -1,0 +1,26 @@
+{
+  "name": "mssqlchatbox",
+  "version": "1.0.0",
+  "description": "A chat client built with node.js and knex driving a (ms)SQL database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgdalessandro/mssqlchatbox.git"
+  },
+  "author": "Ricardo D'Alessandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rgdalessandro/mssqlchatbox/issues"
+  },
+  "homepage": "https://github.com/rgdalessandro/mssqlchatbox#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "knex": "^0.12.6",
+    "mssql": "^3.3.0"
+  }
+}

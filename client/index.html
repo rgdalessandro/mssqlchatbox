@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Material Design Fonts CSS -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- Bootstrap Material Design CSS -->
+    <link rel="stylesheet" type="text/css" href="bootstrap-material-design.min.css">
+    <link rel="stylesheet" type="text/css" href="ripples.min.css">
+
+
+  </head>
+  <body>
+    <div class="col-md-offset-1 col-md-6">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">What is your name?</h3>
+        </div>
+        <div class="panel-body">
+          <form class="form-horizontal">
+            <fieldset>
+              <div class="form-group col-md-9">
+                <label for="input" class="col-md-2 control-label">Name</label>
+
+                <div class="col-md-8">
+                  <input type="text" class="form-control" id="input">
+                </div>
+              </div>
+
+              <div class="form-group col-md-3 ">
+                <div class="pull-right">
+                  <button class="btn btn-raised btn-primary btn-lg" id="nameButton">Submit</button>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery Dependency JS -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Bootstrap Material Design JS -->
+    <script src="ripples.min.js"></script>
+    <script src="material.min.js"></script>
+    <script>$.material.init()</script>
+
+    <!-- Application JS -->
+    <script src="index.js"></script>
+
+  </body>
+</html>
